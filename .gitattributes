@@ -1,0 +1,7 @@
+# Las imagenes son binarias: sin normalizacion de fin de linea ni diffs de texto
+*.img  binary -text -diff
+*.simg binary -text -diff
+*.fex  binary -text -diff
+
+# Scripts: forzar LF para que funcionen en Linux/WSL/macOS
+*.sh text eol=lf

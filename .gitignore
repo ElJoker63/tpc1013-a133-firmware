@@ -1,0 +1,10 @@
+# Imagenes grandes: van en Releases, no en el repo
+super.img
+super.simg
+*.simg
+!tools/*
+
+# Basura de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
